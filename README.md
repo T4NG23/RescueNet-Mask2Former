@@ -55,19 +55,18 @@ docker pull letatanu/semseg_2d:latest
 
 # Start the container
 docker run --rm -ti --gpus all -v $(pwd):/working letatanu/semseg_2d:latest bash
+
 2. Training
 To reproduce the Optimized (Highest Ceiling) training run with Copy-Paste and weighted loss:
 
-Bash
-
 ./run_train_rescuenet_mask2former_optimized.sh
+
 3. Visualization
 To generate the 4-panel visualizations:
 
-Bash
-
 ./viz/run_viz_rescuenet_mask2former.sh
-### Attribution & Research Team
+
+Attribution & Research Team
 This project was developed as part of research work at Bina Labs at Lehigh University.
 
 Principal Investigator: Dr. Maryam Rahnemoonfar
