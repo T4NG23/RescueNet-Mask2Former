@@ -4,7 +4,7 @@ This repository contains a high-performance **Mask2Former** pipeline for semanti
 
 This release represents our **"Highest Ceiling" Optimization Strategy**, where we achieved a significant performance leap by combining high-resolution texture preservation with aggressive synthetic data generation.
 
-## Baseline vs. Highest Ceiling Comparison
+## Highest Ceiling
 
 We significantly outperformed our initial baselines by shifting from a passive resizing strategy to an active "hard mining" approach. This phase introduces **Smart Copy-Paste Augmentation** and a **4.0x Weighted Loss Landscape** to resolve class imbalance.
 
