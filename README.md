@@ -67,7 +67,7 @@ To generate the 4-panel visualizations:
 Bash
 
 ./viz/run_viz_rescuenet_mask2former.sh
-Attribution & Research Team
+### Attribution & Research Team
 This project was developed as part of research work at Bina Labs at Lehigh University.
 
 Principal Investigator: Dr. Maryam Rahnemoonfar
